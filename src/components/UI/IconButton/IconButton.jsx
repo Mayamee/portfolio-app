@@ -1,11 +1,11 @@
-import { Box, Link } from "../../styled/Block";
+import { Box, Link, SVGLink } from "../../styled/Block";
 
 const IconButton = ({ to, size, icon }) => {
   return (
     <Box size={size}>
-      <Link href={to} rel="noreferrer" target="_blank">
+      <SVGLink href={to} rel="noreferrer" target="_blank">
         {icon}
-      </Link>
+      </SVGLink>
     </Box>
   );
 };
